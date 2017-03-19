@@ -17,5 +17,5 @@ Code was written on a mac using node version 6.9.1
 
 ## Thoughts on the test
 
-Test covered a large breadth of front end skills and in that respect was well drafted.  The test was a little longer than i have seen - I spent around 9 hours on it - but I enjoyed it mostly.  The BDD features made it the requirements explain themselves.
+Test covered a large breadth of front end skills and in that respect was well drafted. The BDD features made the requirements explain themselves. I personally found the test was a little longer than i have seen - I spent around 9 hours on it - but I enjoyed it mostly.
 
