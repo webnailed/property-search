@@ -1,0 +1,20 @@
+.properties__total {
+  display: block;
+  font-size: 1.6rem;
+  margin-bottom: 16px;
+
+  @include tablet {
+    margin-bottom: 24px;
+  }
+
+  @include desktop {
+    margin-bottom: 32px;
+  }
+}
+
+html {
+  @include desktop {
+    font-size: 12px;
+  }
+}
+

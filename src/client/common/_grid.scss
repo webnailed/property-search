@@ -1,0 +1,17 @@
+.container {
+  max-width: $max-site-width;
+  margin: 0 auto;
+}
+
+.container__content {
+  padding: 1.6rem;
+
+  @include tablet {
+    padding: 2.4rem;
+  }
+
+  @include desktop {
+    padding: 3.2rem;
+  }
+}
+

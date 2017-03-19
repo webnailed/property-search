@@ -1,0 +1,36 @@
+.search {
+  max-width: 440px;
+  margin: 0 auto;
+
+  @include desktop {
+    max-width: 530px;
+  }
+
+  input {
+    height: 32px;
+    border: solid 1px #B3B3B3;
+    width: calc(100% - 9.8rem);
+    text-indent: .8rem;
+  }
+
+  button {
+    height: 36px;
+    cursor: pointer;
+    border: solid 1px #B3B3B3;
+    padding: 0 1.5rem;
+    background-color: #E4E4E4;
+    margin-left: .8rem;
+  }
+
+  h2 {
+    margin: 0 0 .8rem 0;
+    line-height: 1.2;
+  }
+}
+
+@include desktop {
+
+  html {
+    font-size: 12px;
+  }
+}

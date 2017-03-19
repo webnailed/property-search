@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>{{ title }}</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/dist/searchResults.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="container__content">
+                <span class="properties__total">{{results.result_count}} results found</span>
+                {{#each results.listing}}
+                    {{> property}}
+                {{/each}}
+            </div>
+        </div>
+    </body>
+</html>
